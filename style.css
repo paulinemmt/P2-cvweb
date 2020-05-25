@@ -18,43 +18,4 @@ body{
     box-shadow:1px 1px 1px black;
 }
 
-/*HEADER*/
-header{
-    background-color:#ffffff;
-    display:flex;
-    align-items:center;
-    margin-left:30px;
-}
-header img {
-    border-radius: 80px;
-    border: 4px solid #e53935;
-}
-hgroup{
-    display:flex;
-    flex-direction:column;
-    margin-left:60px;
-}
-header h1{
-    font-size:2.7em;
-    text-transform:uppercase;
-    margin:0;
-}
-#prenom {
-    color: #f44336;
-}
-header h2{
-    margin:0;
-}
-#underline {
-    padding-bottom : 1.5px;
-    border-bottom : 1px solid #f44336;
-}
-#corp {
-    background-color: #ffffff;
-}
-#container {
-    background-color: #f44336;
-}
-footer {
-    background-color: #ffffff;
-}
+/*MAIN*/
