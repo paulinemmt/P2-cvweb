@@ -6,7 +6,7 @@
     font-weight: normal;
     font-style: normal;
 }
-    body{
+body{
     background-color:#ffffff;
     font-family:'amblelight',Verdana,'Lucida Sans';
     font-size:1em;
@@ -27,12 +27,12 @@ header{
 }
 header img {
     border-radius: 80px;
-    border: 4px solid #f44336;
+    border: 4px solid #e53935;
 }
 hgroup{
     display:flex;
     flex-direction:column;
-    margin:40px;
+    margin-left:60px;
 }
 header h1{
     font-size:2.7em;
