@@ -19,3 +19,47 @@ body{
 }
 
 /*MAIN*/
+main{
+    display:flex;
+    flex-direction:column;
+    width:77%;
+}
+.contenucol{
+    display:flex;
+    flex-direction:column;
+}
+.datelieu{
+    float:left;
+}
+
+ /*Partie titre*/
+main h3 {
+    color: black;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+main i {
+    color: #f44336;
+    font-size:1.9em;
+    float:left;
+    padding-right:20px;
+    padding-left:10px;
+    
+}
+.icotitre{
+    border-bottom: 1px solid #f44336; 
+    margin-left:20px;
+    margin-right:20px;
+    font-weight:normal;
+}
+/*Partie contenu*/
+main li{
+    margin:10px;
+    list-style-type:none;
+}
+.lieu{
+    text-transform:uppercase;
+}
+
