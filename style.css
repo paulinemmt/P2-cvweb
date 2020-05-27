@@ -19,17 +19,20 @@ body{
 }
 
 /*MAIN*/
+
 main{
-    display:flex;
-    flex-direction:column;
-    width:77%;
+    font-weight:normal;
+}
+.contenucol i{
+    padding-left:20px;
+    padding-top:30px;
 }
 .contenucol{
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
 }
-.datelieu{
-    float:left;
+adress{
+    display:flex;
 }
 
  /*Partie titre*/
@@ -38,7 +41,7 @@ main h3 {
     font-size: 1.7em;
     text-transform: uppercase;
     text-align: left;
-
+    margin-bottom: 10px;
 }
 main i {
     color: #f44336;
@@ -59,7 +62,24 @@ main li{
     margin:10px;
     list-style-type:none;
 }
-.lieu{
+.lieu, h4{
     text-transform:uppercase;
 }
-
+adress ul{
+    margin-right: 150px;
+    margin-left:0px;
+    padding-left:0px;
+}
+adress h4{
+    padding-left:8px;
+}
+adress{
+    margin-left:10px;
+}
+.contenucol i{
+    font-size:1em;
+}
+main ul{
+    margin-left:0px;
+    padding-left:0px;
+}
