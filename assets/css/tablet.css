@@ -1,3 +1,54 @@
-﻿body
-{
+﻿/*HEADER*/
+header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+}
+.profil{
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+hgroup{
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-left:0px;
+    text-align:center;
+}
+/*POSITION MAIN ASIDE*/
+.container{
+    display:flex;
+    flex-direction:column-reverse;
+}
+/*MAIN*/
+main{
+    width:100%;
+}
+
+/*ASIDE*/
+aside{
+    width:100%;
+
+}
+.contact{
+    text-align:center;
+}
+.contact h3{
+    margin-top:0px;
+}
+.icone{
+    padding-bottom:15px;
+}
+
+
+/*FOOTER*/
+footer .liseret{
+ display:none;
+}
+footer {
+    background-color: #f44336;
+}
+footer p{
+    text-align:left;
 }
