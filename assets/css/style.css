@@ -35,7 +35,7 @@ hgroup {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 header h1 {
@@ -70,7 +70,7 @@ aside {
 }
 aside h3 {
     text-transform: uppercase;
-    font-size: 1.7em;
+    font-size: 1.5em;
     background-color: #424242;
     color: #f44336;
     text-align: center;
@@ -89,16 +89,17 @@ aside h3 {
 }
 .icone {
     text-align: center;
-    font-size: 2em;
-    padding-bottom: 35px;
+    font-size: 2.5em;
+    padding-right:25px;
+    padding-left:25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 .icone i{
     border:2px solid #424242;
-    width:43px;
-    height:43px;
+    width:45px;
+    height:45px;
     text-align:center;
     border-radius:50%;
     display:flex;
@@ -113,7 +114,7 @@ aside h3 {
 /*MAIN*/
 
 main{
-    width:63%;
+    width:62%;
     margin-right:30px;
 }
 .contenucol i{
@@ -156,15 +157,20 @@ main ul {
     padding-left: 0px;
     margin-left:10px;
 }
-.lieu, h4{
-    text-transform:uppercase;
+main h4 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    line-height: 15px;
+    margin-top:15px;
 }
 .contenucol i{
     font-size:1em;
     padding-right:0px;
 }
-h4{
+main h5{
     line-height:0px;
+    font-size:1.2em;
+    text-transform:uppercase;
 }
 .reco{
     display:flex;
