@@ -81,6 +81,14 @@ aside h3 {
     font-style: normal;
     padding-left: 30px;
     padding-right: 30px;
+    text-decoration:none;
+}
+a{
+    color: #424242;
+    text-decoration: none;
+}
+a:hover{
+    font-weight:bold;
 }
 .moi p{
     text-align:justify;
@@ -197,3 +205,4 @@ footer{
     display:flex;
     justify-content:space-between;
 }
+
