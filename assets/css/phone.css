@@ -40,8 +40,10 @@
             padding-left: 0px;
         }
 
-    ul li {
-        padding-left: 30%;
+    .datelieu {
+        text-align:center;
+        width:100%;
+        margin-left:0px;
     }
 
     .icotitre {

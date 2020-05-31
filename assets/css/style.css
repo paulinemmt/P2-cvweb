@@ -157,11 +157,8 @@ main i {
     font-weight:normal;
 }
 /*Partie contenu*/
-main li{
-    list-style-type:none;
-    width:180px;
-}
-main ul {
+.datelieu{
+    min-width:150px;
     padding-left: 0px;
     margin-left:10px;
 }
