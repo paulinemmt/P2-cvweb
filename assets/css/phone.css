@@ -20,7 +20,7 @@
         text-align: center;
     }
     header h1{
-        line-height:20px;
+        line-height:40px;
     }
     /*POSITION MAIN ASIDE*/
     .container {
@@ -32,7 +32,9 @@
         width: 100%;
         padding-bottom: 20px;
     }
-
+        main h3 {
+            font-size: 1.5em;
+        }
     .contenucol {
         display: flex;
         flex-direction: column;
@@ -71,6 +73,9 @@
 
     .icone {
         padding-bottom: 15px;
+    }
+    .moi p{
+        text-align:center;
     }
 
     /*FOOTER*/
