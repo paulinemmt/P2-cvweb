@@ -19,8 +19,9 @@
         margin-left: 0px;
         text-align: center;
     }
-    header h1{
-        line-height:40px;
+
+    header h1 {
+        line-height: 40px;
     }
     /*POSITION MAIN ASIDE*/
     .container {
@@ -32,9 +33,11 @@
         width: 100%;
         padding-bottom: 20px;
     }
+
         main h3 {
             font-size: 1.5em;
         }
+
     .contenucol {
         display: flex;
         flex-direction: column;
@@ -46,9 +49,9 @@
         }
 
     .datelieu {
-        text-align:center;
-        width:100%;
-        margin-left:0px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
     }
 
     .icotitre {
@@ -74,8 +77,9 @@
     .icone {
         padding-bottom: 15px;
     }
-    .moi p{
-        text-align:center;
+
+    .moi p {
+        text-align: center;
     }
 
     /*FOOTER*/
