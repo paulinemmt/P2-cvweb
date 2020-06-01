@@ -19,6 +19,9 @@
         margin-left: 0px;
         text-align: center;
     }
+    header h1{
+        line-height:20px;
+    }
     /*POSITION MAIN ASIDE*/
     .container {
         display: flex;
@@ -76,7 +79,7 @@
     }
 
     footer {
-        background-color: #f44336;
+        background-color: #ff5252;
     }
 
         footer p {
