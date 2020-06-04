@@ -1,4 +1,5 @@
 @media all and (max-width: 600px) {
+
     /*HEADER*/
     header {
         display: flex;
@@ -7,7 +8,7 @@
         justify-content: space-around;
     }
 
-    .profil {
+    .header_photo {
         width: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -38,27 +39,27 @@
             font-size: 1.5em;
         }
 
-    .contenucol {
+    .main_formation_contenucol {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
-        .contenucol i {
-            padding-left: 0px;
-        }
+    .main_formation_contenucol i {
+        padding-left: 0px;
+    }
 
-    .datelieu {
+    .main_formation_contenucol_datelieu {
         text-align: center;
         width: 100%;
         margin-left: 0px;
     }
 
-    .icotitre {
+    .main_formation_icotitre {
         margin-left: 0px;
     }
 
-    .contenucol {
+    .main_formation_contenucol {
         padding-bottom: 20px;
     }
     /*ASIDE*/
@@ -66,24 +67,24 @@
         width: 100%;
     }
 
-    .contact {
+    .aside_contact {
         text-align: center;
     }
 
-        .contact h3 {
+        .aside_contact h3 {
             margin-top: 0px;
         }
 
-    .icone {
+    .aside_loisir_icone {
         padding-bottom: 15px;
     }
 
-    .moi p {
+    .aside_moi p {
         text-align: center;
     }
 
     /*FOOTER*/
-    footer .liseret {
+     .footer_liseret {
         display: none;
     }
 

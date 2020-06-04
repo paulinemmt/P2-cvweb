@@ -7,7 +7,7 @@
         justify-content: space-around;
     }
 
-    .profil {
+    .header_photo {
         width: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -38,21 +38,21 @@
         width: 100%;
     }
 
-    .contact {
+    .aside_contact {
         text-align: center;
     }
 
-        .contact h3 {
+        .aside_contact h3 {
             margin-top: 0px;
         }
 
-    .icone {
+    .aside_loisir_icone {
         padding-bottom: 15px;
     }
 
 
     /*FOOTER*/
-    footer .liseret {
+    .footer_liseret {
         display: none;
     }
 
