@@ -66,7 +66,7 @@ aside {
     background-color: #ef9a9a;
     width: 33%;
     font-size: 1em;
-    color: #616161;
+    color: #006064;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -75,7 +75,7 @@ aside {
     aside h3 {
         text-transform: uppercase;
         font-size: 1.5em;
-        background-color: #616161;
+        background-color: #006064;
         color: #ef9a9a;
         text-align: center;
         padding-top: 4px;
@@ -90,7 +90,7 @@ aside {
 }
 
 a {
-    color: #616161;
+    color: #006064;
     text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ a {
 }
 
     .aside_loisir_icone i {
-        border: 2px solid #616161;
+        border: 2px solid #006064;
         width: 45px;
         height: 45px;
         text-align: center;
