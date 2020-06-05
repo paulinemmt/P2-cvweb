@@ -1,5 +1,7 @@
 ﻿@media all and (max-width: 780px) {
+    
     /*HEADER*/
+
     header {
         display: flex;
         flex-direction: column;
@@ -7,7 +9,7 @@
         justify-content: space-around;
     }
 
-    .header_photo {
+    .header_picture {
         width: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -15,27 +17,34 @@
 
     hgroup {
         margin-left: 0px;
-        padding-top:0px;
+        padding-top: 0px;
         text-align: center;
     }
+
     /*POSITION MAIN ASIDE*/
+
     .container {
         display: flex;
         flex-direction: column-reverse;
     }
+
     /*MAIN*/
+
     main {
         width: 100%;
         padding-bottom: 10px;
     }
 
-    .main_formation_icotitre {
-        margin-right:30px;
+    .main_title {
+        margin-right: 30px;
     }
-    .main_formation_contenucol article{
-        margin-right:30px;
+
+    .main_content article{
+        margin-right: 30px;
     }
+
     /*ASIDE*/
+
     aside {
         width: 100%;
     }
@@ -44,29 +53,32 @@
         text-align: center;
     }
 
-        .aside_contact h3 {
-            margin-top: 0px;
-        }
-
-    .aside_loisir_icone {
-        padding-bottom: 15px;
+    .aside_contact h3 {
+        margin-top: 0px;
     }
-    .aside_moi p{
-        text-align:center;
+
+    .aside_aboutme p{
+        text-align: center;
+    }
+
+    .aside_hobbies_icone {
+        padding-bottom: 15px;
     }
 
     /*FOOTER*/
-    .footer_liseret {
-        display: none;
-    }
 
     footer {
         background-color: #ef9a9a;
     }
 
-        footer p {
-            width:100%;
-            text-align: center;
-            color: #006064;
-        }
+    .footer_edging {
+        display: none;
+    }
+
+    footer p {
+        width: 100%;
+        text-align: center;
+        color: #006064;
+        padding: 0px;
+    }
 }

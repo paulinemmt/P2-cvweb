@@ -1,6 +1,7 @@
 @media all and (max-width: 600px) {
 
     /*HEADER*/
+
     header {
         display: flex;
         flex-direction: column;
@@ -8,54 +9,67 @@
         justify-content: space-around;
     }
 
-    .header_photo {
+    .header_picture {
         width: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
     hgroup {
-        padding-top:0px;
-        padding-bottom:0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
         margin-left: 0px;
         text-align: center;
     }
 
     header h1 {
-        font-size:2.5em;
+        font-size: 2.5em;
         line-height: 40px;
-        margin-bottom:0px;
+        margin-bottom: 0px;
     }
+
     /*POSITION MAIN ASIDE*/
+
     .container {
         display: flex;
         flex-direction: column-reverse;
     }
+
     /*MAIN*/
+
     main {
         width: 100%;
         padding-bottom: 20px;
     }
-        main h3 {
-            font-size: 1.1em;
-        }
-        .main_formation_icotitre i{
-            font-size:1.5em;
-        }
-main h4{
-    font-size:1em;
-}
 
-    .main_formation_contenucol {
+    main h3 {
+        font-size: 1.1em;
+    }
+
+    .main_title {
+        margin-left: 20px;
+        margin-right:20px;
+    }
+
+    .main_title i{
+        font-size:1.5em;
+    }
+
+    main h4{
+        font-size: 1em;
+    }
+
+    .main_content {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
-    .main_formation_contenucol i {
+    .main_content i {
         padding-left: 0px;
     }
-    .main_formation_contenucol_datelieu {
+
+    .main_content_place {
         text-align: center;
         width: 100%;
         margin-left: 0px;
@@ -63,26 +77,26 @@ main h4{
         margin-bottom: 0px;
     }
 
-    .main_formation_icotitre {
+    .main_content article {
+        margin-right: 20px;
         margin-left: 20px;
-        margin-right:20px;
     }
-        .main_formation_contenucol article {
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-.main_formation_reco {
-    flex-direction:column;
-    text-align:center;
-}
-.main_formation_reco h5{
-    font-size:1em;
-}
-.main_formation_reco p{
-    margin-bottom:0px;
-}
+
+    .main_recommandation {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main_recommandation h5{
+        font-size: 1em;
+    }
+
+    .main_recommandation p{
+        margin-bottom: 0px;
+    }
 
     /*ASIDE*/
+
     aside {
         width: 100%;
     }
@@ -91,31 +105,33 @@ main h4{
         text-align: center;
     }
 
-        .aside_contact h3 {
-            margin-top: 0px;
-        }
-
-    .aside_loisir_icone {
-        padding-bottom: 15px;
+    .aside_contact h3 {
+       margin-top: 0px;
     }
 
-    .aside_moi p {
+    .aside_aboutme p {
         text-align: center;
         text-indent: 0px;
     }
 
-    /*FOOTER*/
-     .footer_liseret {
-        display: none;
+    .aside_hobbies_icone {
+        padding-bottom: 15px;
     }
+
+    /*FOOTER*/
 
     footer {
         background-color: #ef9a9a;
     }
 
-        footer p {
-            width: 100%;
-            text-align: center;
-            color: #006064;
-        }
+    .footer_edging {
+       display: none;
+    }
+
+    footer p {
+       width: 100%;
+       text-align: center;
+       color: #006064;
+       padding: 0px;
+    }
 }
