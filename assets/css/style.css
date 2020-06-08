@@ -92,7 +92,7 @@ aside h3 {
 }
 
 .aside_aboutme p {
-    text-align: left;
+    text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
     text-indent: 20px;
